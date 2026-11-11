@@ -1,0 +1,13 @@
+id_libro,titulo,isbn,anio_publicacion,id_categoria
+1,Fundamentos de Python,9781234567019,2023,1
+2,Diseño de Bases de Datos,9781234567026,2024,2
+3,Consultas SQL Paso a Paso,9781234567033,2025,2
+4,Matemática Discreta Aplicada,9781234567040,2022,3
+5,Redes para Principiantes,9781234567057,2023,4
+6,Historia de Loja,9781234567064,2021,5
+7,Literatura Andina Contemporánea,9781234567071,2020,6
+8,Metodología de la Investigación,9781234567088,2024,7
+9,Introducción a Java,9781234567095,2023,1
+10,Álgebra Lineal Esencial,9781234567101,2022,3
+11,Seguridad de Redes,9781234567118,2025,4
+12,Archivos de la Universidad,9781234567125,2024,5

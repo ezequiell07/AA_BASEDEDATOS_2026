@@ -1,0 +1,17 @@
+id_ejemplar,id_libro,codigo_inventario,estado
+1,1,EJ-001,Disponible
+2,1,EJ-002,Disponible
+3,2,EJ-003,Disponible
+4,2,EJ-004,Disponible
+5,3,EJ-005,Disponible
+6,4,EJ-006,Disponible
+7,5,EJ-007,Disponible
+8,5,EJ-008,Disponible
+9,6,EJ-009,Disponible
+10,7,EJ-010,Disponible
+11,8,EJ-011,Disponible
+12,8,EJ-012,Disponible
+13,9,EJ-013,Disponible
+14,10,EJ-014,Disponible
+15,11,EJ-015,Mantenimiento
+16,12,EJ-016,Disponible
