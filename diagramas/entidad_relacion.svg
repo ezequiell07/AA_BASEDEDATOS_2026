@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 1010" width="1900" height="1010" role="img">
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#182735}.entity{fill:#fff;stroke:#173649;stroke-width:2.5}.relation{fill:#eef8f5;stroke:#187967;stroke-width:2.2}.oval{fill:#fff;stroke:#284250;stroke-width:1.5}.edge{fill:none;stroke:#3f5962;stroke-width:1.75}.card{font-weight:700;font-size:22px}.small{font-size:16px}.attribute{font-size:18px}.key{text-decoration:underline;font-weight:700}</style>
+<rect width="1900" height="1010" fill="white"/>
+<line x1="340" y1="265" x2="465" y2="265" class="edge" />
+<line x1="635" y1="265" x2="780" y2="265" class="edge" />
+<line x1="1020" y1="265" x2="1165" y2="265" class="edge" />
+<line x1="1335" y1="265" x2="1480" y2="265" class="edge" />
+<line x1="900" y1="295" x2="900" y2="342" class="edge" />
+<line x1="900" y1="438" x2="900" y2="500" class="edge" />
+<line x1="900" y1="560" x2="900" y2="615" class="edge" />
+<line x1="900" y1="711" x2="900" y2="760" class="edge" />
+<line x1="370" y1="790" x2="485" y2="790" class="edge" />
+<line x1="655" y1="790" x2="775" y2="790" class="edge" />
+<line x1="80" y1="128" x2="145" y2="235" class="edge" />
+<line x1="245" y1="128" x2="225" y2="235" class="edge" />
+<line x1="410" y1="128" x2="290" y2="235" class="edge" />
+<line x1="660" y1="128" x2="815" y2="235" class="edge" />
+<line x1="830" y1="128" x2="875" y2="235" class="edge" />
+<line x1="1005" y1="128" x2="940" y2="235" class="edge" />
+<line x1="1180" y1="128" x2="990" y2="235" class="edge" />
+<line x1="1430" y1="128" x2="1520" y2="235" class="edge" />
+<line x1="1600" y1="128" x2="1600" y2="235" class="edge" />
+<line x1="1750" y1="128" x2="1670" y2="235" class="edge" />
+<line x1="725" y1="530" x2="775" y2="530" class="edge" />
+<line x1="1025" y1="505" x2="1120" y2="505" class="edge" />
+<line x1="1025" y1="548" x2="1120" y2="568" class="edge" />
+<line x1="105" y1="673" x2="165" y2="760" class="edge" />
+<line x1="330" y1="673" x2="305" y2="760" class="edge" />
+<line x1="165" y1="820" x2="95" y2="912" class="edge" />
+<line x1="245" y1="820" x2="255" y2="912" class="edge" />
+<line x1="327" y1="820" x2="438" y2="912" class="edge" />
+<line x1="805" y1="820" x2="630" y2="912" class="edge" />
+<line x1="865" y1="820" x2="810" y2="912" class="edge" />
+<line x1="945" y1="820" x2="1020" y2="912" class="edge" />
+<line x1="996" y1="820" x2="1245" y2="912" class="edge" />
+<rect class="entity" x="100" y="235" width="240" height="60" rx="3"/><text x="220" y="265" text-anchor="middle" dominant-baseline="middle" class="card">CATEGORIAS</text>
+<rect class="entity" x="780" y="235" width="240" height="60" rx="3"/><text x="900" y="265" text-anchor="middle" dominant-baseline="middle" class="card">LIBROS</text>
+<rect class="entity" x="1480" y="235" width="240" height="60" rx="3"/><text x="1600" y="265" text-anchor="middle" dominant-baseline="middle" class="card">AUTORES</text>
+<rect class="entity" x="775" y="500" width="250" height="60" rx="3"/><text x="900" y="530" text-anchor="middle" dominant-baseline="middle" class="card">EJEMPLARES</text>
+<rect class="entity" x="110" y="760" width="260" height="60" rx="3"/><text x="240" y="790" text-anchor="middle" dominant-baseline="middle" class="card">ESTUDIANTES</text>
+<rect class="entity" x="775" y="760" width="250" height="60" rx="3"/><text x="900" y="790" text-anchor="middle" dominant-baseline="middle" class="card">PRESTAMOS</text>
+<polygon class="relation" points="550,217 635,265 550,313 465,265"/><text x="550" y="265" text-anchor="middle" dominant-baseline="middle" class="small">clasifica</text>
+<polygon class="relation" points="1250,217 1340,265 1250,313 1160,265"/><text x="1250" y="265" text-anchor="middle" dominant-baseline="middle" class="small">escrito por</text>
+<polygon class="relation" points="900,342 978,390 900,438 822,390"/><text x="900" y="390" text-anchor="middle" dominant-baseline="middle" class="small">tiene</text>
+<polygon class="relation" points="900,615 986,663 900,711 814,663"/><text x="900" y="663" text-anchor="middle" dominant-baseline="middle" class="small">se presta</text>
+<polygon class="relation" points="570,742 655,790 570,838 485,790"/><text x="570" y="790" text-anchor="middle" dominant-baseline="middle" class="small">realiza</text>
+<rect x="384" y="245" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="403" y="265" text-anchor="middle" dominant-baseline="middle" class="small">1</text>
+<rect x="681" y="245" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="700" y="265" text-anchor="middle" dominant-baseline="middle" class="small">N</text>
+<rect x="1071" y="245" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="1090" y="265" text-anchor="middle" dominant-baseline="middle" class="small">M</text>
+<rect x="1391" y="245" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="1410" y="265" text-anchor="middle" dominant-baseline="middle" class="small">N</text>
+<rect x="881" y="299" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="900" y="319" text-anchor="middle" dominant-baseline="middle" class="small">1</text>
+<rect x="881" y="444" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="900" y="464" text-anchor="middle" dominant-baseline="middle" class="small">N</text>
+<rect x="881" y="567" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="900" y="587" text-anchor="middle" dominant-baseline="middle" class="small">1</text>
+<rect x="881" y="712" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="900" y="732" text-anchor="middle" dominant-baseline="middle" class="small">N</text>
+<rect x="405" y="770" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="424" y="790" text-anchor="middle" dominant-baseline="middle" class="small">1</text>
+<rect x="698" y="770" width="38" height="40" rx="3" fill="#fff" stroke="#75918e" stroke-width="1.1"/><text x="717" y="790" text-anchor="middle" dominant-baseline="middle" class="small">N</text>
+<ellipse class="oval" cx="80" cy="100" rx="98" ry="28"/><text x="80" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute key">id_categoria</text>
+<ellipse class="oval" cx="245" cy="100" rx="74" ry="28"/><text x="245" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute">nombre</text>
+<ellipse class="oval" cx="410" cy="100" rx="102" ry="28"/><text x="410" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute">descripcion</text>
+<ellipse class="oval" cx="660" cy="100" rx="92" ry="28"/><text x="660" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute key">id_libro</text>
+<ellipse class="oval" cx="830" cy="100" rx="70" ry="28"/><text x="830" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute">titulo</text>
+<ellipse class="oval" cx="1005" cy="100" rx="68" ry="28"/><text x="1005" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute">isbn</text>
+<ellipse class="oval" cx="1180" cy="100" rx="125" ry="28"/><text x="1180" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute">anio_publicacion</text>
+<ellipse class="oval" cx="1430" cy="100" rx="85" ry="28"/><text x="1430" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute key">id_autor</text>
+<ellipse class="oval" cx="1600" cy="100" rx="70" ry="28"/><text x="1600" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute">nombre</text>
+<ellipse class="oval" cx="1750" cy="100" rx="60" ry="28"/><text x="1750" y="100" text-anchor="middle" dominant-baseline="middle" class="attribute">pais</text>
+<ellipse class="oval" cx="610" cy="530" rx="108" ry="28"/><text x="610" y="530" text-anchor="middle" dominant-baseline="middle" class="attribute key">id_ejemplar</text>
+<ellipse class="oval" cx="1250" cy="505" rx="132" ry="28"/><text x="1250" y="505" text-anchor="middle" dominant-baseline="middle" class="attribute">codigo_inventario</text>
+<ellipse class="oval" cx="1230" cy="568" rx="75" ry="28"/><text x="1230" y="568" text-anchor="middle" dominant-baseline="middle" class="attribute">estado</text>
+<ellipse class="oval" cx="105" cy="645" rx="82" ry="28"/><text x="105" y="645" text-anchor="middle" dominant-baseline="middle" class="attribute">correo</text>
+<ellipse class="oval" cx="330" cy="645" rx="78" ry="28"/><text x="330" y="645" text-anchor="middle" dominant-baseline="middle" class="attribute">ciclo</text>
+<ellipse class="oval" cx="95" cy="940" rx="105" ry="28"/><text x="95" y="940" text-anchor="middle" dominant-baseline="middle" class="attribute key">id_estudiante</text>
+<ellipse class="oval" cx="255" cy="940" rx="82" ry="28"/><text x="255" y="940" text-anchor="middle" dominant-baseline="middle" class="attribute">nombres</text>
+<ellipse class="oval" cx="438" cy="940" rx="95" ry="28"/><text x="438" y="940" text-anchor="middle" dominant-baseline="middle" class="attribute">apellidos</text>
+<ellipse class="oval" cx="630" cy="940" rx="105" ry="28"/><text x="630" y="940" text-anchor="middle" dominant-baseline="middle" class="attribute key">id_prestamo</text>
+<ellipse class="oval" cx="810" cy="940" rx="118" ry="28"/><text x="810" y="940" text-anchor="middle" dominant-baseline="middle" class="attribute">fecha_prestamo</text>
+<ellipse class="oval" cx="1020" cy="940" rx="98" ry="28"/><text x="1020" y="940" text-anchor="middle" dominant-baseline="middle" class="attribute">fecha_limite</text>
+<ellipse class="oval" cx="1245" cy="940" rx="119" ry="28"/><text x="1245" y="940" text-anchor="middle" dominant-baseline="middle" class="attribute">fecha_devolucion</text>
+</svg>

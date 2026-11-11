@@ -25,8 +25,18 @@ Proyecto académico de base de datos relacional para registrar estudiantes, auto
 - [SQL completo MySQL](sql/biblioteca_mysql_completo.sql)
 - [DDL](sql/01_creacion_tablas.sql), [DML](sql/02_inserciones.sql), [5 consultas](sql/03_consultas.sql)
 - [Siete archivos CSV](datos/csv/)
-- [Diagrama relacional](diagramas/modelo_relacional.md) y [álgebra relacional](docs/Algebra_relacional.md)
+- [Diagrama Entidad–Relación](diagramas/entidad_relacion.md), [modelo relacional](diagramas/modelo_relacional.md) y [álgebra relacional](docs/Algebra_relacional.md)
 - [Guía de uso](docs/Guia_de_uso.md)
+
+## Diagramas del proyecto
+
+**Modelo Entidad–Relación**
+
+![Diagrama Entidad–Relación](diagramas/entidad_relacion.svg)
+
+**Modelo relacional**
+
+![Diagrama del modelo relacional](diagramas/modelo_relacional.svg)
 
 ## Instalación
 Abre MySQL Workbench y ejecuta `sql/biblioteca_mysql_completo.sql`. **Atención: recrea las siete tablas y reemplaza sus datos**. Luego ejecuta `sql/03_consultas.sql`.

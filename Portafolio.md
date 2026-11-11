@@ -9,57 +9,16 @@
 El objetivo es diseñar una base relacional para controlar los ejemplares y préstamos de una biblioteca. Se distingue el título del libro de su copia física. La autoría múltiple se resuelve con la tabla intermedia LIBRO_AUTOR.
 
 ## Modelo Entidad–Relación y relacional
-```mermaid
-erDiagram
- CATEGORIAS ||--o{ LIBROS : clasifica
- LIBROS ||--o{ EJEMPLARES : tiene
- LIBROS ||--o{ LIBRO_AUTOR : participa
- AUTORES ||--o{ LIBRO_AUTOR : participa
- ESTUDIANTES ||--o{ PRESTAMOS : realiza
- EJEMPLARES ||--o{ PRESTAMOS : registra
- CATEGORIAS {
-  INT id_categoria PK
-  VARCHAR nombre
-  VARCHAR descripcion
- }
- AUTORES {
-  INT id_autor PK
-  VARCHAR nombre
-  VARCHAR pais
- }
- ESTUDIANTES {
-  INT id_estudiante PK
-  VARCHAR nombres
-  VARCHAR apellidos
-  VARCHAR correo
-  INT ciclo
- }
- LIBROS {
-  INT id_libro PK
-  VARCHAR titulo
-  CHAR isbn
-  INT anio_publicacion
-  INT id_categoria FK
- }
- LIBRO_AUTOR {
-  INT id_libro PK,FK
-  INT id_autor PK,FK
- }
- EJEMPLARES {
-  INT id_ejemplar PK
-  INT id_libro FK
-  VARCHAR codigo_inventario
-  VARCHAR estado
- }
- PRESTAMOS {
-  INT id_prestamo PK
-  INT id_estudiante FK
-  INT id_ejemplar FK
-  DATE fecha_prestamo
-  DATE fecha_limite
-  DATE fecha_devolucion
- }
-```
+### Modelo Entidad–Relación
+
+![Modelo Entidad–Relación de la biblioteca](diagramas/entidad_relacion.svg)
+
+### Modelo relacional
+
+![Modelo relacional de siete tablas](diagramas/modelo_relacional.svg)
+
+[Ver ambos diagramas](diagramas/entidad_relacion.md) · [Descargar el modelo relacional SVG](diagramas/modelo_relacional.svg)
+
 
 ## Implementación SQL
 | Tabla | Registros |
